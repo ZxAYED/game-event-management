@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import img from '../../images/FAV.png'
 
 const Navbar = () => {
     const Navmenu=<>
@@ -34,11 +34,11 @@ const Navbar = () => {
      
     </ul>
   </div>
-  <div className="navbar-end justify-center">
-  <div className="w-10 rounded-full">
-          <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+  <div className="navbar-end justify-center ">
+  <div className="w-10 rounded-full ">
+          <img src={img} />
         </div>
-    <a className="btn border text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md">Login</a>
+    <a className="btn border text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md ml-4">Login</a>
   
   </div>
 </div>

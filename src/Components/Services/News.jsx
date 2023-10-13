@@ -3,7 +3,7 @@
 const News = ({items}) => {
     const { title, description, views, prizeMoney, registrationInfo } =items;
  
-  console.log( title, description, views, prizeMoney, registrationInfo );
+
     return (
         <div>
          
