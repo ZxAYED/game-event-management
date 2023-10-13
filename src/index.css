@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: 'Gabarito', sans-serif;
+    
+    background-color:#2D1633;
+    color: rgb(151, 202, 202);
+    /* 'secondary': '#BE006B',
+    'ternary': '#3C1446',
+
+    'bgColor': '#1D1737', */
+}
+*{padding: 0px;
+    margin: 0px;}

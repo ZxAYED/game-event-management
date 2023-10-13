@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "title": "Epic Showdown in the League of Legends Arena!",
+      "description": "Prepare for the ultimate League of Legends showdown! Test your skills against the best and claim your spot at the top. Exciting prizes await the champions.",
+      "views": 15000,
+      "prizeMoney": 20000,
+      "registrationInfo": "Registration is open. Join now to secure your place in the tournament."
+    },
+    {
+      "id": 2,
+      "title": "Counter-Strike: Global Offensive at Its Best!",
+      "description": "Experience the thrill of CS:GO in its purest form. Can you conquer the competition? Get ready for high-stakes action and intense battles.",
+      "views": 12500,
+      "prizeMoney": 15000,
+      "registrationInfo": "Registration is open. Secure your spot in this epic championship."
+    },
+    {
+      "id": 3,
+      "title": "Battle for Victory Royale in Fortnite!",
+      "description": "Dive into the world of Fortnite Battle Royale. Be the last player standing and claim the Victory Royale. Join the battle and seize glory!",
+      "views": 18000,
+      "prizeMoney": 10000,
+      "registrationInfo": "Registration is open. Don't miss your chance to become a Fortnite legend."
+    },
+    {
+      "id": 4,
+      "title": "Craft Your Way to Victory in Minecraft!",
+      "description": "Show off your creativity and building skills in our Minecraft competition. Prizes await the best creators. Will you be among them?",
+      "views": 9000,
+      "prizeMoney": 5000,
+      "registrationInfo": "Registration is open. Let your imagination run wild in this Minecraft adventure."
+    },
+    {
+      "id": 5,
+      "title": "Conquer the Dota 2 Arena!",
+      "description": "Get ready for epic battles in the world of Dota 2. Team up, strategize, and conquer the arena! Will your team reign supreme?",
+      "views": 14500,
+      "prizeMoney": 25000,
+      "registrationInfo": "Registration is open. Rally your team and take on the Dota 2 challenge."
+    },
+    {
+      "id": 6,
+      "title": "Heroes Unite in the Overwatch Arena!",
+      "description": "Join the ranks of Overwatch heroes and fight for victory in this action-packed tournament. Who will emerge as the ultimate Overwatch champion?",
+      "views": 10800,
+      "prizeMoney": 15000,
+      "registrationInfo": "Registration is open. Team up with friends and bring your skills to the battlefield."
+    },
+    {
+      "id": 7,
+      "title": "Legends Are Born in Apex Legends!",
+      "description": "Champions emerge in Apex Legends. Will your squad be the next legendary champions? Show your skills and claim victory.",
+      "views": 8750,
+      "prizeMoney": 20000,
+      "registrationInfo": "Registration is open. Gather your squad and rise to the top of the Apex Legends world."
+    },
+    {
+      "id": 8,
+      "title": "Score Amazing Goals in Rocket League!",
+      "description": "Strap in and play Rocket League like never before. Score amazing goals and win the Rocket League Rumble! Get ready for the rumble.",
+      "views": 7200,
+      "prizeMoney": 10000,
+      "registrationInfo": "Registration is open. Team up with friends and aim for Rocket League glory."
+    },
+    {
+      "id": 9,
+      "title": "Kick Off in the Ultimate FIFA Tournament!",
+      "description": "Compete in the ultimate virtual soccer championship. Prove that you are the best FIFA player and claim the World Cup.",
+      "views": 11500,
+      "prizeMoney": 15000,
+      "registrationInfo": "Registration is open. Showcase your soccer skills and aim for FIFA glory."
+    },
+    {
+      "id": 10,
+      "title": "Unleash Your Card-Playing Skills in Hearthstone!",
+      "description": "Unleash your card-playing skills in the world of Hearthstone. Become the next Grandmaster and claim your spot among the best.",
+      "views": 6800,
+      "prizeMoney": 10000,
+      "registrationInfo": "Registration is open. Deal your way to the top in the world of Hearthstone."
+    },
+    {
+      "id": 11,
+      "title": "Tactical Battles Await in Rainbow Six Siege!",
+      "description": "Engage in tactical battles in Rainbow Six Siege. The championship awaits the best tactical teams. Will your squad emerge victorious?",
+      "views": 9200,
+      "prizeMoney": 20000,
+      "registrationInfo": "Registration is open. Form your tactical team and aim for the Rainbow Six Siege championship."
+    },
+    {
+      "id": 12,
+      "title": "Battle of Iconic Characters in Super Smash Bros.!",
+      "description": "Fight your way to glory in the world of Super Smash Bros. Ultimate. It's a battle of iconic characters! Who will claim the ultimate victory?",
+      "views": 8000,
+      "prizeMoney": 10000,
+      "registrationInfo": "Registration is open. Choose your favorite character and smash your way to victory."
+    },
+    {
+      "id": 13,
+      "title": "Last Squad Standing in Warzone!",
+      "description": "Step into the world of Call of Duty: Warzone. Fight to become the last squad standing and claim your spot as the Warzone champion.",
+      "views": 10300,
+      "prizeMoney": 15000,
+      "registrationInfo": "Registration is open. Form your squad and gear up for intense Call of Duty action."
+    },
+    {
+      "id": 14,
+      "title": "Ultimate Fighter in Street Fighter V!",
+      "description": "Show off your martial arts skills in Street Fighter V. Prove that you are the ultimate fighter and claim victory in this epic showdown.",
+      "views": 7500,
+      "prizeMoney": 10000,
+      "registrationInfo": "Registration is open. Choose your fighter and prepare for a fierce Street Fighter battle."
+    }
+  ]
+  

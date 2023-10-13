@@ -1,0 +1,129 @@
+[
+    {
+      "id": 1,
+      "title": "Event Planning and Coordination",
+      "description": "Comprehensive event planning and coordination services for gaming tournaments and events.",
+      "price": "$2,500 and up",
+      "moreDetails": "Customizable event packages available. Contact us for a personalized quote.",
+      "howToJoin": "Contact our team to discuss your event requirements and get started.",
+      "image": "https://i.ibb.co/pJRWbbs/game-event-planing.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Tournament Management",
+      "description": "Professional tournament organization, including brackets, rules, and live scoring.",
+      "price": "$1,000 per event",
+      "moreDetails": "Our team handles everything from registration to match scheduling and prize distribution.",
+      "howToJoin": "Submit a request for tournament management services through our website.",
+      "image": "https://i.ibb.co/8P2Byn0/tournament.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Live Streaming and Broadcasting",
+      "description": "High-quality live streaming and broadcasting of gaming events on popular platforms.",
+      "price": "$500 and up",
+      "moreDetails": "Options for multiple camera angles, commentary, and audience interaction.",
+      "howToJoin": "Contact us to schedule a live streaming service for your event.",
+      "image": "https://i.ibb.co/xhhWHcT/live-stream.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Branding and Marketing",
+      "description": "Strategic branding, marketing, and promotion to boost your gaming event's visibility.",
+      "price": "$1,200 per month",
+      "moreDetails": "Includes social media marketing, content creation, and sponsor outreach.",
+      "howToJoin": "Start a marketing campaign by reaching out to our marketing team.",
+      "image": "https://i.ibb.co/88GskJd/brandind.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ticketing and Registration",
+      "description": "Create an efficient ticketing and registration system for your gaming events.",
+      "price": "$0.50 per registration",
+      "moreDetails": "Customizable registration forms, payment processing, and attendee management.",
+      "howToJoin": "Get started with our ticketing and registration services on our website.",
+      "image": "https://i.ibb.co/NNPCMrn/ticket.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Prize Pool Management",
+      "description": "Secure and distribute prize pools for gaming tournaments with transparency.",
+      "price": "5% of total prize pool",
+      "moreDetails": "We handle prize distribution and ensure fair competition.",
+      "howToJoin": "Contact us to manage your tournament's prize pool.",
+      "image": "https://i.ibb.co/84v3bZy/prize-pool.jpg.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Sponsorship and Partnerships",
+      "description": "Assistance in securing sponsorships and forming strategic partnerships for your gaming events.",
+      "price": "Custom pricing based on sponsorships secured",
+      "moreDetails": "We connect you with potential sponsors and negotiate deals on your behalf.",
+      "howToJoin": "Get in touch with our partnership team to explore sponsorship opportunities.",
+      "image": "https://i.ibb.co/qjY5DQh/sponsor.webp"
+    },
+    {
+      "id": 8,
+      "title": "Gaming Equipment Rental",
+      "description": "Rent gaming equipment and consoles for your events, including setup and support.",
+      "price": "Varies by equipment and duration",
+      "moreDetails": "Choose from a wide range of gaming equipment and accessories.",
+      "howToJoin": "Browse our equipment catalog and make a rental request.",
+      "image": "https://i.ibb.co/WySsTD6/gaming-equp.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Game Coaching and Training",
+      "description": "Receive coaching and training from experienced gamers to improve your skills.",
+      "price": "$50 per hour",
+      "moreDetails": "One-on-one coaching sessions and personalized training plans available.",
+      "howToJoin": "Book a coaching session with our expert trainers.",
+      "image": "https://i.ibb.co/4WHmbF7/game-coaching.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Community Building",
+      "description": "Create and nurture gaming communities, forums, and online platforms for gamers to connect and collaborate.",
+      "price": "Custom community platform development",
+      "moreDetails": "Tailored solutions for community engagement and interaction.",
+      "howToJoin": "Discuss your community-building project with our development team.",
+      "image": "https://i.ibb.co/qx7jFYz/community.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Event Technology and Software",
+      "description": "Event management software and technology solutions designed for gaming events.",
+      "price": "Custom pricing based on software requirements",
+      "moreDetails": "Custom development, support, and integration services available.",
+      "howToJoin": "Contact us to discuss your software and technology needs.",
+      "image": "https://i.ibb.co/Q7gQj7p/event-tech-n-soft.webp"
+    },
+    {
+      "id": 12,
+      "title": "Game Development Consultation",
+      "description": "Consultation services for game developers to enhance their games for competitive play.",
+      "price": "$1,500 per consultation",
+      "moreDetails": "Expert insights, playtesting, and optimization recommendations.",
+      "howToJoin": "Schedule a game development consultation session with our team.",
+      "image": "https://i.ibb.co/q56v8gW/game-dev.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Custom Merchandise and Apparel",
+      "description": "Create and purchase custom gaming merchandise, including apparel, accessories, and collectibles.",
+      "price": "Varies by product and customization",
+      "moreDetails": "Custom design and branding options available for your merchandise.",
+      "howToJoin": "Browse our merchandise catalog and place your order.",
+      "image": "https://i.ibb.co/27y8HDX/game-customize-appereal.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Gaming News and Content Creation",
+      "description": "Produce gaming-related news, articles, videos, and content to engage the gaming community.",
+      "price": "Custom pricing based on content type",
+      "moreDetails": "Professional content creation, editing, and promotion services.",
+      "howToJoin": "Collaborate with our content creation team to produce gaming content.",
+      "image": "https://i.ibb.co/dLZMSxH/game-news.jpg"
+    }
+  ]
+  

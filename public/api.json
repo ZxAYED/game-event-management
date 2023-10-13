@@ -1,0 +1,156 @@
+[
+    {
+      "id": 1,
+      "title": "League of Legends Tournament",
+      "description": "Join the ultimate League of Legends showdown. Prove your skills and win exciting prizes!",
+      "image": "https://i.ibb.co/r3JCK3n/league.jpg",
+      "date": "2023-11-15",
+      "location": "123 Gaming Street, New York",
+      "participants": 150,
+      "registrationOpen": true,
+      "price": 20
+    },
+    {
+      "id": 2,
+      "title": "CS:GO Championship",
+      "description": "Experience the thrill of Counter-Strike: Global Offensive at its finest. Are you ready for the challenge?",
+      "image": "https://i.ibb.co/xfNHz7M/csgo.jpg",
+      "date": "2023-12-10",
+      "location": "456 Gaming Avenue, Los Angeles",
+      "participants": 80,
+      "registrationOpen": true,
+      "price": 15
+    },
+    {
+      "id": 3,
+      "title": "Fortnite Battle Royale",
+      "description": "Join the most popular Battle Royale game. Victory Royale awaits the last player standing!",
+      "image": "https://i.ibb.co/wwBPj6r/fortnite.jpg",
+      "date": "2024-01-20",
+      "location": "789 Gaming Boulevard, Chicago",
+      "participants": 200,
+      "registrationOpen": true,
+      "price": 10
+    },
+    {
+      "id": 4,
+      "title": "Minecraft Build-Off",
+      "description": "Show off your creativity and building skills in our Minecraft competition. Prizes for the best creations!",
+      "image": "https://i.ibb.co/Bnc1LKZ/minecraft.jpg",
+      "date": "2024-02-15",
+      "location": "1010 Gamers Lane, San Francisco",
+      "participants": 50,
+      "registrationOpen": true,
+      "price": 5
+    },
+    {
+      "id": 5,
+      "title": "Dota 2 Tournament",
+      "description": "Get ready for epic battles in the world of Dota 2. Team up, strategize, and conquer the arena!",
+      "image": "https://i.ibb.co/vYX7S4g/dota2.jpg",
+      "date": "2024-03-05",
+      "location": "1212 Esports Drive, Miami",
+      "participants": 120,
+      "registrationOpen": true,
+      "price": 25
+    },
+    {
+      "id": 6,
+      "title": "Overwatch Showdown",
+      "description": "Join the ranks of Overwatch heroes and fight for victory in this action-packed tournament.",
+      "image": "https://i.ibb.co/zRPVGPZ/overwatcg.jpg",
+      "date": "2024-04-18",
+      "location": "1414 Gamers Road, Dallas",
+      "participants": 90,
+      "registrationOpen": true,
+      "price": 15
+    },
+    {
+      "id": 7,
+      "title": "Apex Legends Championship",
+      "description": "Champions emerge in Apex Legends. Will your squad be the next legendary champions?",
+      "image": "https://i.ibb.co/y6mFMhD/revenent.jpg",
+      "date": "2024-05-10",
+      "location": "1616 Game Street, Seattle",
+      "participants": 60,
+      "registrationOpen": true,
+      "price": 20
+    },
+    {
+      "id": 8,
+      "title": "Rocket League Rumble",
+      "description": "Strap in and play Rocket League like never before. Score amazing goals and win the Rocket League Rumble!",
+      "image": "https://i.ibb.co/pRK40yq/rocket-leuge.jpg",
+      "date": "2024-06-25",
+      "location": "1818 Esports Avenue, Denver",
+      "participants": 40,
+      "registrationOpen": true,
+      "price": 10
+    },
+    {
+      "id": 9,
+      "title": "FIFA World Cup",
+      "description": "Compete in the ultimate virtual soccer championship. Prove that you are the best FIFA player!",
+      "image": "https://i.ibb.co/t4J4qLZ/fifa.jpg",
+      "date": "2024-07-12",
+      "location": "2020 Gamers Drive, Las Vegas",
+      "participants": 64,
+      "registrationOpen": true,
+      "price": 15
+    },
+    {
+      "id": 10,
+      "title": "Hearthstone Grandmasters",
+      "description": "Unleash your card-playing skills in the world of Hearthstone. Become the next Grandmaster!",
+      "image": "https://i.ibb.co/D4HZxQ2/heartstone.jpg",
+      "date": "2024-08-05",
+      "location": "2222 Game Avenue, Boston",
+      "participants": 32,
+      "registrationOpen": true,
+      "price": 10
+    },
+    {
+      "id": 11,
+      "title": "Rainbow Six Siege Championship",
+      "description": "Engage in tactical battles in Rainbow Six Siege. The championship awaits the best tactical teams!",
+      "image": "https://i.ibb.co/Bwhyy44/rainbow.jpg",
+      "date": "2024-09-15",
+      "location": "2424 Esports Street, Houston",
+      "participants": 48,
+      "registrationOpen": true,
+      "price": 20
+    },
+    {
+      "id": 12,
+      "title": "Super Smash Bros. Showdown",
+      "description": "Fight your way to glory in the world of Super Smash Bros. Ultimate. It's a battle of iconic characters!",
+      "image": "https://i.ibb.co/jH0GYFp/super-smash.jpg",
+      "date": "2024-10-20",
+      "location": "2626 Gamers Lane, Atlanta",
+      "participants": 64,
+      "registrationOpen": true,
+      "price": 10
+    },
+    {
+      "id": 13,
+      "title": "Call of Duty: Warzone Tournament",
+      "description": "Step into the world of Call of Duty: Warzone. Fight to become the last squad standing!",
+      "image": "https://i.ibb.co/dgtrVbK/warzone.jpg",
+      "date": "2024-11-15",
+      "location": "3333 Gaming Drive, Orlando",
+      "participants": 75,
+      "registrationOpen": true,
+      "price": 15
+    },
+    {
+      "id": 14,
+      "title": "Street Fighter V Showdown",
+      "description": "Show off your martial arts skills in Street Fighter V. Prove that you are the ultimate fighter!",
+      "image": "https://i.ibb.co/y4y8L4r/street-fightere.jpg",
+      "date": "2024-12-10",
+      "location": "4444 Gamers Avenue, Phoenix",
+      "participants": 40,
+      "registrationOpen": true,
+      "price": 10
+    }
+]
