@@ -19,6 +19,7 @@ const[log,setlog]=useState(null)
 
   const handleLogin = (e) => {
     e.preventDefault();
+    console.log(e.target);
     const email = e.target.email.value;
   
       const password = e.target.password.value
@@ -64,7 +65,7 @@ const[log,setlog]=useState(null)
     githubLogin()
     .then(res => {
       console.log(res.user);
-     
+  
       toast.success('User Logged in SuccessFully!', {
         position: "top-right",
         autoClose: 5000,
@@ -139,7 +140,7 @@ const[log,setlog]=useState(null)
                   />
                 </div>
                 <div className="mb-6">
-                  <button type='submit' onClick={handleLogin}
+                  <button type='submit' 
                     className="w-full py-3 rounded border flex items-center justify-center transition bg-black duration-300 btn   hover:border-purple-800   text-white "
                   >Log In </button>
                 </div>

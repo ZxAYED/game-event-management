@@ -10,27 +10,26 @@ const Register = () => {
   const {user, createUser, googleSignIn,githubLogin } = useContext(authContext)
   
   const [error, setError] = useState(null)
-  console.log(error);
+ 
 
 
   const handleGoogleSignIn = () => {
     googleSignIn()
       .then(res => {
-        console.log(res.user);
-       
-        toast.success('User Logged in SuccessFully!', {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "dark",
-          });
+   
       })
       .catch(err=>{console.error(err)})
 
+      toast.success('User Logged in SuccessFully!', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        });
   }
 
 
@@ -48,7 +47,7 @@ const Register = () => {
       .test(password)) {
         toast.error('Your password is less than 6 characters or dont have a capital letter  or dont have a special character', {
          position: "top-right",
-         autoClose: 5000,
+         autoClose: 2000,
          hideProgressBar: false,
          closeOnClick: true,
          pauseOnHover: true,
@@ -66,7 +65,7 @@ const Register = () => {
       
        if(user){ toast.success('User created SuccessFully!', {
           position: "top-right",
-          autoClose: 5000,
+          autoClose: 2000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -83,7 +82,7 @@ const Register = () => {
       if(error){
         toast.error(error.message, {
            position: "top-right",
-           autoClose: 5000,
+           autoClose: 2000,
            hideProgressBar: false,
            closeOnClick: true,
            pauseOnHover: true,

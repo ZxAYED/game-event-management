@@ -16,6 +16,7 @@ import AuthProvider from './Components/Provider/AuthProvider';
 import CardDetails from './Components/Home/CardDetails';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import PrivateRoute from './Components/Provider/PrivateRoute';
+import ServiceDetails from './Components/Services/ServiceDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -52,6 +53,11 @@ const router = createBrowserRouter([
       path:'/details/:id',
       element:<PrivateRoute><CardDetails/></PrivateRoute>,
       loader:()=>{  return fetch('/api.json')} 
+    },
+      {
+      path:'/service/:id',
+      element:<PrivateRoute><ServiceDetails/></PrivateRoute>,
+      loader:()=>{  return fetch('/services.json')} 
     },
       
   

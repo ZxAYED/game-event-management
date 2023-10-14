@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Navbar = () => {
   const {user,logOut}=useContext(authContext)
- 
+
  const handleSignOut=()=>{
   logOut()
   .then()
@@ -57,11 +57,19 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end justify-center ">
-  <div className="w-10 rounded-full ">
-        {user?.photoURL?<img className="rounded-[50%]" src={user.photoURL} />:<img src={img} />}  
+  <div className="w-10 rounded-full flex flex-row justify-around items-center gap-2 mx-2">
+  
+     {user?.displayName? <p className="text-xs">{user.displayName}</p> :''}  
+      
+
+      
+        {user?.photoURL?<img className="rounded-[50%]" src={user.photoURL} />:<img src={img} 
+        
+        />} 
+     
         </div>
         {
-          !user? <Link to='/SignIn'> <button className="btn border text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md ml-4">Login</button></Link>: <button onClick={handleSignOut} className="btn border text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md ml-4">Sign Out</button>
+          !user? <Link to='/SignIn'> <button className="btn border ml-5 text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md">Login</button></Link>: <button onClick={handleSignOut} className="btn border text-[#000000] bg-[#BE006B] ml-5 hover:border-purple-600  hover:bg-slate-700 rounded-md ">Sign Out</button>
   
   
         }
