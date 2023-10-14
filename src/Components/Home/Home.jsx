@@ -2,14 +2,17 @@ import React from 'react';
 import bg from '../../images/wall.jpg'
 import img from '../../images/bg1.jpg'
 import { useLoaderData } from 'react-router-dom';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 import Cards from './cards';
-<script>
-AOS.init();
-</script>
+
 
 const Home = () => {
     const data =useLoaderData()
-  
+    useEffect(()=>{
+        Aos.init({duration:500});
+    },[])
     return (
         <div>
             <div className="hero " >
@@ -20,7 +23,7 @@ const Home = () => {
 
                         <h1 className="mb-5 text-5xl font-bold rounded  py-2   ">Esports event management</h1>
                         <p className="mb-5 text-xl">Celebrate Your Passion for Gaming with Us! Your One-Stop Destination for Spectacular Gaming Events, Competitions, and Community.</p>
-                        <input type='text' className='text-2xl px-5 rounded-xl py-2 bg-[#120F1F]' placeholder='Search Here..'></input>
+                    
                     </div>
                 </div>
             </div>
@@ -38,7 +41,7 @@ const Home = () => {
             </section>
             <section className='py-20 max-w-7xl mx-auto'>
                 <h1 className='text-center text-3xl py-10 text-[#BE006B] font-semibold'>Explore Epic Game Championships and Tournaments: Your Ultimate Event Hub</h1>
-            <div  className='grid grid-cols-3 gap-5 '>
+            <div  className='grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 ' >
                 {
                     data.map((item)=><Cards key={item.id} item={item} ></Cards>
                     )

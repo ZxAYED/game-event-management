@@ -1,44 +1,43 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
-import News from './News';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 import Service from './Service';
+import { useLoaderData } from 'react-router-dom';
 
 const Services = () => {
-    const items =useLoaderData();
-    const[data,setData]=useState([])
+    const data = useLoaderData();
+
+
     useEffect(()=>{
-
-        fetch('services.json')
-        .then(res=>res.json())
-        .then(data=>setData(data))
-       console.log(data);
-
+        Aos.init({duration:1000});
     },[])
-  
-    
+
+
+
+
     return (
-       <div className='max-w-7xl mx-auto'>
+        <div className='mx-10 lg:mx-auto'>
+            <div className='text-center pt-20 max-w-6xl mx-auto'>
+                <h1 className='text-[#BE006B] text-4xl font-bold' >Elevate Your Game Events with Our Expert Services</h1>
+                <p className='pt-4 text-xl' >Welcome to <span className='text-[#BE006B] text-lg font-semibold '>ZxAYED</span> your one-stop destination for managing and enhancing your game events. We're here to ensure your gaming gatherings are not only seamless but truly unforgettable. Our range of services is designed to take your game events to the next level.</p>
+            </div>
+        <div className='max-w-7xl mx-auto md:grid-cols-2 grid-cols-1  grid lg:grid-cols-3 py-20 gap-5 ' data-aos="zoom-in">
 
-        <section >
-            {/* data.map((item)=>{}) */}
-            <Service></Service>
-        
-        </section>
 
-         <div  className=''>    <h1 className="text-3xl pt-10 text-[#BE006B] font-bold  text-center">NewsSphere: Where Every Pixel Tells a Story</h1>
-           <p className="py-3 text-center text-xl ">
-           This Section suggests a dynamic and immersive gaming experience, where every piece of news and content is a part of the larger gaming universe. It also conveys the idea that in the world of gaming, every pixel on the screen has its own exciting story to share.</p></div>
-           <div className='grid grid-cols-2 gap-4  py-10'>
-     {
-      
-        items.map(items=><News key={items.id} items={items}></News>
-           
-          
-  )}
-  </div>
-        
+            {
+                data && data.map((item) =>  <Service key={item.id} item={item}></Service> )
+                
+
+            }
+
+
+
+</div>
+
         </div>
-     
+
+
+
     );
 };
 

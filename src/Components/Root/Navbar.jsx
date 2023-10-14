@@ -6,15 +6,16 @@ const Navbar = () => {
     <div className="flex flex-row gap-4  text-xl">
     <li><NavLink to='/'>Home</NavLink></li>
     <li><NavLink to='/Services'>Services</NavLink></li>
-    <li><NavLink to='/SignIn'>Sign In</NavLink></li>
+    <li><NavLink to='/News'>News</NavLink></li>
+    <li><NavLink to='/SignIn'>Log In</NavLink></li>
     <li><NavLink to='/Register'>Register</NavLink></li>
     
     </div>
     </>
     return (
         <div>
-            <div className="navbar mt-0 h-24  bg-[#120F1F]" >
-  <div className="navbar-start lg:p-24 mx-auto  ">
+            <div className="navbar mt-0 h-24  bg-[#120F1F] mb-12 md:mb-0" >
+  <div className="navbar-start xl:p-24 mx-auto  ">
     
     <div className="dropdown  ">
         
