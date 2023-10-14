@@ -1,7 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import img from '../../images/FAV.png'
+import { useContext } from "react";
+import { authContext } from "../Provider/AuthProvider";
 
 const Navbar = () => {
+  const {user,logOut}=useContext(authContext)
+  console.log(user);
+ const handleSignOut=()=>{
+  logOut()
+  .then()
+  .catch()
+ }
     const Navmenu=<>
     <div className="flex flex-row gap-4  text-xl">
     <li><NavLink to='/'>Home</NavLink></li>
@@ -37,10 +46,14 @@ const Navbar = () => {
   </div>
   <div className="navbar-end justify-center ">
   <div className="w-10 rounded-full ">
-          <img src={img} />
+        {user?.photoURL?<img src={user.photoURL} />:<img src={img} />}  
         </div>
-    <a className="btn border text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md ml-4">Login</a>
+        {
+          !user? <Link to='/SignIn'> <button className="btn border text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md ml-4">Login</button></Link>: <button onClick={handleSignOut}className="btn border text-[#000000] bg-[#BE006B]  hover:border-purple-600  hover:bg-slate-700 rounded-md ml-4">Sign Out</button>
   
+  
+        }
+   
   </div>
 </div>
         </div>

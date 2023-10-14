@@ -6,7 +6,7 @@ const CardDetails = () => {
     const {id}= useParams()
    
     const item =items.find(job=>job.id==id)
-    console.log(item);
+    
   
     return (
         <div   className=" max-w-7xl mx-auto flex flex-col p-4 mb-10 md:p-0 gap-4 shadow-2xl">
