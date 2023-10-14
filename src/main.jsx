@@ -12,11 +12,14 @@ import Register from './Components/Register/Register';
 import LogIN from './Components/LogIn/LogIN';
 import Services from './Components/Services/Services';
 import News from './Components/Services/News';
-import AuthProvider from './Components/Provider/AuthProvider';
+// import AuthProvider from './Components/Provider/AuthProvider';
+import CardDetails from './Components/Home/CardDetails';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage/>,
     children:[
       {
       path:'/',
@@ -44,6 +47,11 @@ const router = createBrowserRouter([
       path:'/SignIn',
       element:<LogIN></LogIN> 
     },
+      {
+      path:'/details/:id',
+      element:<CardDetails/>,
+      loader:()=>{  return fetch('/api.json')} 
+    },
       
   
   
@@ -52,8 +60,8 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthProvider>
+    {/* <AuthProvider> */}
    <RouterProvider router={router} />
-   </AuthProvider>
+   {/* </AuthProvider> */}
   </React.StrictMode>,
 )

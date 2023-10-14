@@ -8,7 +8,7 @@ const Service = ({item}) => {
     },[])
 
     const { title, description, price, moreDetails, howToJoin, image } = item
-    console.log( title, description, price, moreDetails, howToJoin, image );
+
     return (
         <div>
             <div className="m-auto relative overflow-hidden rounded-lg shadow-lg cursor-pointer h-[660px] bg-slate-900 " data-aos="fade-up"

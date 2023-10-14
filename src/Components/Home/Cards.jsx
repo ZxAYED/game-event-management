@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Cards = ({item}) => {
@@ -6,6 +7,7 @@ const Cards = ({item}) => {
       
     return (
         <div >
+          { <Link to={`/details/${id}`}>
              <div className="relative overflow-hidden "   >
       <div className="w-full h-60 bg-cover  text-white bg-center transition-transform  scale-100 hover:scale-105 hover:bg-[#BE006B] duration-1000">
         <img className=' object-fit' src={image} alt="" />
@@ -20,7 +22,7 @@ const Cards = ({item}) => {
           </div>
         </div>
       </div>
-    </div>
+    </div></Link>}
         </div>
     );
 };

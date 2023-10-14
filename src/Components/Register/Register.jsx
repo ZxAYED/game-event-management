@@ -1,26 +1,26 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { authContext } from '../Provider/AuthProvider';
+// import { authContext } from '../Provider/AuthProvider';
 
 
 const Register = () => {
-  const {createUser}=useContext(authContext)
-const handleRegister =(e)=>{
-  e.preventDefautl();
+//   const {createUser}=useContext(authContext)
+// const handleRegister =(e)=>{
+//   e.preventDefautl();
 
-const name=e.target.name.value;
-const img=e.target.img.value;
-const email=e.target.email.value;
-const password =e.target.email.value
-console.log(email,password,name,img);
-createUser(email,password)
-.then(res=>{
-  console.log(res);
-})
-.catch(error=>{
-  console.error(error)
-})
-}
+// const name=e.target.name.value;
+// const img=e.target.img.value;
+// const email=e.target.email.value;
+// const password =e.target.email.value
+// console.log(email,password,name,img);
+// createUser(email,password)
+// .then(res=>{
+//   console.log(res);
+// })
+// .catch(error=>{
+//   console.error(error)
+// })
+// }
 
 
 
@@ -35,7 +35,8 @@ createUser(email,password)
     </div>
     <div className="bg-[#BE006B] rounded-lg shadow-xl">
       <div className="p-8">
-        <form onSubmit={handleRegister} >
+        <form  >
+        {/* onSubmit={handleRegister} */}
           <div className="mb-6">
             <label
            
